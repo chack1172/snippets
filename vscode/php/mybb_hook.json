@@ -1,0 +1,13 @@
+{
+	"MyBB plugin hook": {
+		"prefix": "mybb_hook",
+		"body": [
+			"\\$plugins->add_hook('$1', '$2');",
+			"function $2()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Add mybb plugin hook"
+	}
+}
